@@ -23,18 +23,20 @@ Install the required dependencies:
 
 ```bash
 pip install -r requirements.txt
-
+```
 Start Redis server: Ensure Redis is installed and running on your machine. You can start Redis locally by running:
 
-
+```bash
 redis-server
+```
 Run Celery worker: In a separate terminal, run the Celery worker to process background tasks:
 
-
+```bash
 celery -A app.celery worker --loglevel=info
+```
 Run the FastAPI server: In another terminal, start the FastAPI server:
-
-
+```bash
 uvicorn app:app --reload
+```
 This will start the FastAPI application at http://127.0.0.1:8000.
 
