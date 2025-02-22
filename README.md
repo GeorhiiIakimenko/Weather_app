@@ -23,7 +23,7 @@ Install the required dependencies:
 
 ```bash
 pip install -r requirements.txt
-bash```
+
 Start Redis server: Ensure Redis is installed and running on your machine. You can start Redis locally by running:
 
 
